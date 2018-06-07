@@ -1,0 +1,43 @@
+body{
+  background-color: lightgrey;
+}
+.navbar{
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+}
+.pokeLogo{
+  width: 100px;
+  height: 60px;
+}
+
+.pokeContainer{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.amigoItem {
+  background-color: white;
+  margin: 1rem;
+  max-width: 200px;
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.pokeImg{
+  width: 100%;
+  max-height: 300px;
+}
+.pokeInfo{
+  margin: 0.5rem;
+
+}
+.pokeDetail{
+  display: flex;
+  justify-content: space-between;
+}
+.pokeType{
+  width: 3rem;
+  height: 1rem;
+}
